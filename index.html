@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfilio </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- Parent div for navbar and container -->
+<div class="main-box">
+
+  <!-- Navbar Section -->
+  <nav class="navbar">
+      <!-- Navigation links in the center -->
+      <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Skils</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Services</a></li>
+      </ul>
+      <span class="separator"> | </span>
+      <!-- Social media icons on the right -->
+      <div class="social-icons">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      </div>
+  </nav>
+
+  <!-- Main Content Section -->
+  <div class="container">
+      <div class="content">
+          <p>Hi, I am Rajnish Kushwaha</p>
+          <h1>I am a Web Developer</h1>
+          <br>
+          <p>"Hello! I'm Rajnish Kushwaha, a creative web developer and designer.
+              <br> I specialize in building user-friendly, visually appealing, and responsive websites.
+              In my portfolio, you’ll find my projects, skills, and creative work.
+              If you're looking for a stunning website, feel free to get in touch!"
+          </p>
+      </div>
+      <div class="image-container">
+          <img id="profile_image" src="https://wallpapercave.com/wp/wp6813924.jpg" alt="RAJNISH KUSHWAHA">
+      </div>
+  </div>
+
+  <!-- Buttons -->
+  <div class="buttons">
+    <button class="btn" onclick="viewProject()">View My Project</button>
+    <button class="btn" onclick="contactUs()">Contact Us</button>
+  </div>
+
+</div>
+
+        <!-- About Me Section -->
+<div class="about_box">
+  <section class="about_me">
+      <img src="https://wallpapercave.com/wp/wp6813924.jpg" alt="About Me Image" class="about_img">
+      <div class="about_main">
+          <h1>About Me</h1>
+          <p>"I am a passionate Web Developer specializing in front-end technologies. I love creating clean, user-friendly, and visually appealing websites. My goal is to craft responsive and high-performing web applications that deliver a seamless user experience. I continuously learn new technologies to stay updated with the latest trends in web development. When I'm not coding, I explore UI/UX design and read tech blogs."".</p>
+      </div>
+     
+
+  </section>
+  <a href="https://raw.githubusercontent.com/maurya0330/my-resume/main/Rajnish%20Kuwhwaha%20Resume.pdf" target="_blank" class="resume-btn">
+    Download Resume
+</a>
+
+</div>
+<!--skills section  -->
+<section class="skills_boxs">
+    <h1>My Expertise in Web Design</h1>
+    <div id="skill">
+        
+        <div class="box">
+            <img src="https://cdn.pixabay.com/photo/2019/10/09/07/28/development-4536630_1280.png" alt="" class="img-icon">
+<h3>Frontend Developer</h3>
+<p id="short-text-1">A **Frontend Developer** is responsible for creating the visual and interactive elements of a website using **HTML, CSS, and JavaScript...............</p>
+<button class="learn-more" onclick="toggleText('full-text-1', 'short-text-1')" aria-expanded="false" aria-controls="full-text-1">Learn More</button>
+<p id="full-text-1" class="full-text" style="display: none;">
+    A Frontend Developer is responsible for creating the visual and interactive elements of a website using HTML, CSS, and JavaScript. Their main goal is to ensure a smooth and engaging user experience by making the website responsive, fast, and visually appealing. They work closely with UI/UX designers and backend developers to bring designs to life and ensure seamless functionality. A good frontend developer also optimizes website performance and ensures cross-browser compatibility. 🚀
+</p>
+            
+        </div>
+        
+        <div class="box">
+            <img src="https://cdn.pixabay.com/photo/2015/02/24/19/58/notebook-647761_1280.jpg" alt="" class="img-icon">
+<h3>Responsive Design</h3>
+<p id="short-text-2">Responsive design is a web design approach that ensures a website adapts seamlessly to different devices like...............</p>
+<button class="learn-more" onclick="toggleText('full-text-2', 'short-text-2')" aria-expanded="false" aria-controls="full-text-2">Learn More</button>
+<p id="full-text-2" class="full-text" style="display: none;">
+    Responsive design is a web design approach that ensures a website adapts seamlessly to different devices like mobiles, tablets, and desktops. It uses **CSS media queries, flexbox, grid, and fluid layouts** to automatically adjust content based on screen size. The primary goal is to provide a **better user experience**, making the website fast, easy to use, and visually consistent across all devices. 🚀
+</p>
+
+
+
+  
+            
+        </div>
+        <div class="box">
+            <img src="https://cdn.pixabay.com/photo/2018/05/18/15/30/web-design-3411373_1280.jpg" alt="" class="img-icon">
+<h3>UI/UX Design</h3>
+<p id="short-text-3">UI/UX design focuses on creating a seamless and engaging user experience in digital products. **UI (User Interface) design ...............</p>
+<button class="learn-more" onclick="toggleText('full-text-3', 'short-text-3')" aria-expanded="false" aria-controls="full-text-3">Learn More</button>
+<p id="full-text-3" class="full-text" style="display: none;">
+   🚀UI/UX design focuses on creating a seamless and engaging user experience in digital products. **UI (User Interface) design** deals with the visual aspects like buttons, colors, typography, and layouts, ensuring an attractive and user-friendly interface. **UX (User Experience) design** focuses on the overall usability, functionality, and user satisfaction by conducting research, wireframing, and testing to optimize interactions. In short, **UI makes the design visually appealing, while UX ensures it works efficiently** to provide a smooth user experience. 🚀
+</p>
+           
+        </div>
+    </div>
+</section>
+<!-- contact us section-->
+ <section class="contact-us-container">
+    <h1>Contact Us</h1>
+    <div class="contact-us">
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+           
+        </form>
+       
+        <button type="submit">Send Message</button>
+
+    </div>
+ </section>
+ <!-- services section-->
+ <section class="footer-container">
+    <h1>Rajnish Kushwaha</h1>
+    <p>A creative web developer and designer.<br>
+        I specialize in building user-friendly, visually appealing, and responsive websites.
+        In my portfolio, you’ll find my projects, skills, and creative work.
+    </p>
+
+    <!-- Contact Info Section -->
+    <div class="contact-info">
+        <h3>Contact Info</h3>
+        <p>Email: <a href="mauryaxyz@gmail.com.com">mauryaxyz@gmail.com</a></p>
+        <p>Phone: +91 9876543210</p>
+        <p>Address: Deoria,Gorakhpur, India</p>
+       
+    </div>
+
+   
+
+    <!-- Technologies Used -->
+    <div class="technologies-used">
+        <h3>Technologies Used</h3>
+        <p>HTML | CSS | JavaScript </p>
+    </div>
+
+    <div class="footer-navbar">
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Services</a></li>
+        </ul>
+    </div>
+
+    <div class="social-icons">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+    </div>
+
+    <p class="copyright">© 2025 Rajnish Kushwaha. All rights reserved.</p>
+</section>
+
+
+  
+
+    
+        <script src="script.js"></script>
+</body>
+</html>
