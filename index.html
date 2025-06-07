@@ -1,66 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfilio </title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio Hero Section</title>
+  <link rel="stylesheet" href="new-style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 </head>
-
 <body>
-    <!-- Parent div for navbar and container -->
-<div class="main-box">
-
-  <!-- Navbar Section -->
+  <header class="hero">
   <nav class="navbar">
-      <!-- Navigation links in the center -->
-      <ul class="nav-links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Skils</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Services</a></li>
-      </ul>
-      <span class="separator"> | </span>
-      <!-- Social media icons on the right -->
-      <div class="social-icons">
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fa-brands fa-facebook"></i></a>
-      </div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Skills</a></li>
+      <li><a href="#">Project</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
   </nav>
 
-  <!-- Main Content Section -->
   <div class="container">
-      <div class="content">
-          <p>Hi, I am Rajnish Kushwaha</p>
-          <h1>I am a Web Developer</h1>
-          <br>
-          <p>"Hello! I'm Rajnish Kushwaha, a creative web developer and designer.
-              <br> I specialize in building user-friendly, visually appealing, and responsive websites.
-              In my portfolio, you’ll find my projects, skills, and creative work.
-              If you're looking for a stunning website, feel free to get in touch!"
-          </p>
+    <div class="hero-text">
+      <h1>Hello, It's Me</h1>
+      <h2><span class="highlight">Rajnish Kushwaha</span></h2>
+      <h3>And I'm a <span class="highlight">Web Developer</span></h3>
+      <p>
+        A creative web developer and designer.<br>
+        I specialize in building user-friendly, visually appealing, and responsive websites.
+        In my portfolio, you’ll find my projects, skills, and creative work.
+        If you're looking for a stunning website, feel free to get in touch!
+      </p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
       </div>
-      <div class="image-container">
-          <img id="profile_image" src="https://wallpapercave.com/wp/wp6813924.jpg" alt="RAJNISH KUSHWAHA">
+      <div class="btn-group">
+        <a href="#projects" class="btn-secondary"><span>View Projects</span></a>
+        <a href="#contact" class="btn-secondary"><span>Contact Me</span></a>
       </div>
+    </div>
+
+    <div class="hero-image">
+      <div class="glow-border">
+        <img src="Image/rajnish2.png" alt="Profile Image">
+      </div>
+    </div>
   </div>
+</header>
 
-  <!-- Buttons -->
-  <div class="buttons">
-    <button class="btn" onclick="viewProject()">View My Project</button>
-    <button class="btn" onclick="contactUs()">Contact Us</button>
-  </div>
-
-</div>
-
+    
         <!-- About Me Section -->
 <div class="about_box">
   <section class="about_me">
-      <img src="https://wallpapercave.com/wp/wp6813924.jpg" alt="About Me Image" class="about_img">
+      <img src="Image/rajnish2.png" alt="About Me Image" class="about_img">
       <div class="about_main">
           <h1>About Me</h1>
           <p>"I am a passionate Web Developer specializing in front-end technologies. I love creating clean, user-friendly, and visually appealing websites. My goal is to craft responsive and high-performing web applications that deliver a seamless user experience. I continuously learn new technologies to stay updated with the latest trends in web development. When I'm not coding, I explore UI/UX design and read tech blogs."".</p>
@@ -173,11 +169,6 @@
 
     <p class="copyright">© 2025 Rajnish Kushwaha. All rights reserved.</p>
 </section>
-
-
-  
-
-    
-        <script src="script.js"></script>
+  </header>
 </body>
 </html>
